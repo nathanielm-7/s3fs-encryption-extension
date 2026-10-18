@@ -1,6 +1,6 @@
 # s3fs Encryption Extension
 
-Transparent AES-256 encryption for Amazon S3 uploads, built by modifying the open-source [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) filesystem (v1.95). Built for an Operating Systems course at Wayne State University (Dec 2025).
+AES-256 encryption for Amazon S3 uploads, built by modifying the open-source [s3fs-fuse](https://github.com/s3fs-fuse/s3fs-fuse) filesystem (v1.95).
 
 ## What it does
 - Files copied into the s3fs mount are automatically encrypted before they upload to S3 (AES-256-CBC, random 8-byte salt per file, OpenSSL EVP API).
